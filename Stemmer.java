@@ -1,5 +1,12 @@
 import java.io.*;
 
+/*My Comment:
+//This class is Already exist in the internet, i just modify it to work with my code.
+//To run this class you need to give it the path of text file you want to stemmer it.
+//It's better to run all these class with command line such CMD or Terminal.
+//After compile the file run this command ("java Stemmer To_Stemmer.txt").
+*/
+
 /**
   * Stemmer, implementing the Porter Stemming Algorithm
   *
@@ -377,9 +384,7 @@ class Stemmer
 
              {  int ch = in.read();
 
-
-
-                if (Character.isLetter((char) ch))
+               if (Character.isLetter((char) ch))
                 {
                    int j = 0;
                    while(true)
